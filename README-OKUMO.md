@@ -1,3 +1,3 @@
-# AKWAYA COUNCIL - PROFESSIONAL
-Title correct, clean code.
-Edit content/mayor.json, news.json, projects.json only.
+SAME AS ORIGINAL Final_1, ONLY SPLIT INTO FOLDERS.
+index.html loads css/style.css and js/main.js
+Images in images/ folder.
