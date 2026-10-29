@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AKWAYA COUNCIL | Akwaya, Manyu Division</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- TOP BAR -->
+<div class="topbar"><span>Republic of Cameroon &bull; R&eacute;publique du Cameroun</span><button id="langBtn" onclick="toggleLang()">FR</button></div>
+
+<!-- HEADER - DARK GREEN -->
+<header>
+  <div class="header-inner">
+    <div class="logo-text">
+      <div class="small-gold">MANYU DIVISION &bull; SOUTH-WEST REGION</div>
+      <h1>AKWAYA COUNCIL</h1>
+      <p class="tagline" data-en="Where the Forest Meets the River" data-fr="Là où la forêt rencontre la rivière">Where the Forest Meets the River</p>
+    </div>
+    <nav>
+      <a href="#" data-en="Home" data-fr="Accueil">Home</a>
+      <a href="#" data-en="About" data-fr="À propos">About</a>
+      <a href="#" data-en="The Council" data-fr="Le Conseil">The Council</a>
+      <a href="#" data-en="Services" data-fr="Services">Services</a>
+      <a href="#" data-en="Projects" data-fr="Projets">Projects</a>
+      <a href="#" data-en="News" data-fr="Actualités">News</a>
+      <a href="#" data-en="Contact" data-fr="Contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO - SIMPLE BANNER -->
+<section class="hero">
+  <p class="hero-eyebrow">TOURISM FIRST &bull; COUNCIL SECOND</p>
+  <h2 data-en="Akwaya — From Obudu Hills to Takamanda Forest" data-fr="Akwaya — Des collines d'Obudu à la forêt de Takamanda">Akwaya — From Obudu Hills to Takamanda Forest</h2>
+  <p class="hero-sub">Home of the Cross River Gorilla, the 1908 German Hanging Bridge, and traditional palaces.</p>
+  <div class="btns">
+    <a class="btn btn-gold" href="#" data-en="Discover Akwaya" data-fr="Découvrir Akwaya">Discover Akwaya</a>
+    <a class="btn btn-outline" href="#" data-en="Our Services" data-fr="Nos Services">Our Services</a>
+  </div>
+</section>
+
+<!-- MAYOR - EDITABLE VIA content/mayor.json -->
+<section class="section">
+  <h3>Mayor's Welcome <span class="gold-line"></span></h3>
+  <div class="mayor-card">
+    <div class="mayor-photo">PHOTO</div>
+    <div>
+      <p id="mayorName">The Mayor, Akwaya Council</p>
+      <p id="mayorMsg">Welcome message will be loaded from content/mayor.json — Mr. Okumo edits only that file.</p>
+      <p class="note">This block is NOT hardcoded. Change mayor.json when the Mayor changes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section ivory">
+  <h3>Services</h3>
+  <div class="grid" id="servicesGrid"></div>
+</section>
+
+<!-- TOURISM -->
+<section class="section">
+  <h3>Tourism — Discover Akwaya</h3>
+  <div class="grid">
+    <div class="card"><h4>Takamanda Forest</h4><p>Cross River Gorilla &amp; rainforest.</p></div>
+    <div class="card"><h4>German Hanging Bridge</h4><p>1908 bridge over Manyu River.</p></div>
+    <div class="card"><h4>Palaces &amp; Culture</h4><p>Assumbo, Boki, Messaga Ekol, Mbulu, Takamanda.</p></div>
+  </div>
+</section>
+
+<footer><p>AKWAYA COUNCIL — Manyu Division, South-West Region, Cameroon</p><p class="note">Starter for council approval. GitHub Pages first, custom domain later.</p></footer>
+<script src="js/main.js"></script>
+</body>
+</html>

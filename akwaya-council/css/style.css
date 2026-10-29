@@ -1,0 +1,27 @@
+/* AKWAYA COUNCIL - STARTER - Dark Green / Gold / Ivory */
+:root{--forest:#123A2B;--moss:#3A7D44;--teal:#1F7A7A;--gold:#C9A227;--clay:#8B3A1E;--ivory:#F8F3E6}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:var(--ivory);color:#222}
+h1,h2,h3,h4{font-family:Georgia,serif;color:var(--forest)}
+.topbar{background:#0d2c21;color:#fff;display:flex;justify-content:space-between;padding:8px 20px;font-size:12px}
+.topbar button{background:transparent;border:1px solid var(--gold);color:var(--gold);border-radius:20px;padding:4px 12px;cursor:pointer}
+header{background:var(--forest);color:var(--ivory);padding:24px 20px}
+.header-inner{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.small-gold{color:var(--gold);letter-spacing:3px;font-size:11px}
+header h1{margin:4px 0;color:var(--ivory);font-size:34px;letter-spacing:1px}
+.tagline{color:#d9cfa8;margin:0}
+nav a{color:#fff;text-decoration:none;margin-left:16px;font-size:14px}
+.hero{background:var(--forest);color:#fff;text-align:center;padding:48px 20px;border-top:3px solid var(--gold)}
+.hero h2{color:#fff;font-size:32px}
+.hero-eyebrow{color:var(--gold);letter-spacing:3px;font-size:12px}
+.btn{display:inline-block;padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:bold;font-size:14px;margin:8px}
+.btn-gold{background:var(--gold);color:var(--forest)}
+.btn-outline{border:2px solid var(--gold);color:#fff}
+.section{max-width:1100px;margin:auto;padding:32px 20px}
+.section.ivory{background:#fff}
+.gold-line{display:inline-block;width:60px;height:4px;background:var(--gold);margin-left:10px;vertical-align:middle}
+.mayor-card{display:flex;gap:20px;background:#fff;padding:20px;border-left:6px solid var(--gold)}
+.mayor-photo{width:120px;height:120px;background:var(--teal);color:#fff;display:flex;align-items:center;justify-content:center;border-radius:50%;flex-shrink:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:#fff;padding:20px;border-top:4px solid var(--moss)}
+.note{font-size:12px;color:#666}
+footer{background:var(--forest);color:#fff;text-align:center;padding:24px}
