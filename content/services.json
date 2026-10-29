@@ -1,0 +1,16 @@
+{
+  "services": [
+    {
+      "title": "Civil Status",
+      "desc": "Birth, marriage and death certificates."
+    },
+    {
+      "title": "Business Permits",
+      "desc": "Permits for markets and businesses."
+    },
+    {
+      "title": "Land & Planning",
+      "desc": "Land documents and town planning."
+    }
+  ]
+}
